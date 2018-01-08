@@ -1,0 +1,622 @@
+html, 
+body {
+	height: 100%;
+	font-size: 16px;
+	/*background: url(../img/handmadepaper_@2x.png) center no-repeat fixed;*/
+	background-size: cover;
+	font-family: 'Comfortaa', cursive;
+	
+}
+
+/* FONT FACES */ 
+
+	
+
+@font-face {
+	font-family: 'Comfortaa', cursive;
+	font-family: 'Roboto Mono', monospace;
+}
+
+/*SECTION COVER*/
+#cover {
+	height: 100%;
+	background: url('../img/open_book_hires.jpg') center;
+	background-size: cover;
+	color: white;
+	
+}
+
+.wall-sticker {
+	background: rgba(249, 240, 240, 0.2);
+	padding: 8rem 20rem 16rem 1rem;
+	font-family: 'Comfortaa';
+	font-size: 2.3rem;
+	color: rgba(212, 211, 206, 1) !important;
+	text-shadow: 1px 1px black;
+	position: relative;
+}
+
+.dd {
+	color: white;
+	white-space: nowrap;
+	font-weight: bold;
+}
+
+.moto {
+	font-family: 'Comfortaa';
+	/*font-size: 3rem;*/
+	margin-top: 8rem;
+	margin-left: 200px;
+	text-align: center;
+	text-shadow: 1px 1px black;
+}
+
+/* BUTTONS*/
+
+ 
+.btn-lg a:hover,
+.btn-lg a:focus
+/*.btn-lg a:active*/ {
+	color: white;
+}
+
+.btn-lg,
+.btn-lg a {
+text-decoration: none;
+color: rgba(229, 96, 25, 0.5);
+}
+
+.btn-lg {
+	margin-top: 5rem;
+	/*background-color: rgb(51, 25, 0, 0.2);*/
+	color: rgba(229, 96, 25, .7);
+	/*text-shadow: 0px 1px #fff;*/
+	border: 2px solid rgba(229, 96, 25, 0.5);
+	font-family: 'Comfortaa';
+	transition: 0.5s;
+	/*color: white;*/
+}
+
+.btn-lg:hover,
+.btn-lg:focus, 
+.btn-lg:active {
+	background-color: rgba(229, 96, 25, 0.45);
+	border: 1px solid rgba(229, 96, 25, 0);
+	transition: 0.5s;
+	text-shadow: none;
+}
+
+.fa-angle-double-down {
+	margin-left: 50rem;
+	margin-top: 50px;
+	font-size: 3rem;
+	color:white;
+}
+
+.fa-angle-double-down:hover {
+	color: rgba(229, 96, 25, 0.45);
+	transition: 0.3s;
+}
+
+/*NAVBAR*/
+.navbar {
+	font-family: 'Roboto Mono';
+	background-color: rgba(69, 69, 69, 1);		
+}
+
+/*#navbarNav {
+	float: right;	
+} 
+*/
+
+.navbar-brand {
+	padding: 10px;
+}
+
+.navbar-toggler {
+	z-index: 10000;
+}
+
+.d-inline-block {
+	padding-left: 15px;
+	margin: -35px;
+}
+
+.books {
+	padding-left: 40px;
+}
+
+#navigation li a {
+	color: rgba(212, 211, 206, 1) !important;
+	border-bottom: 1px solid transparent;
+	transition: .5s;
+	text-decoration: none;
+}
+
+#navigation li a:hover,
+#navigation li a:focus,
+#navigation li a:active {
+	color: white !important;
+}
+
+#navigation li a:hover {
+	border-bottom: 2px solid rgba(229, 96, 25, 1);
+	transition: .5s;
+}
+
+.navbar-nav {
+	font-size: .9rem;	
+	text-align: center;
+}
+
+
+/*FEATURES*/
+
+
+.section-features {
+	padding: 10rem 0;
+	background:  url(../img/handmadepaper.png) center;
+	height: 100%;
+	background-size: cover;	
+}
+
+#features .row {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.about {
+	background-position: inherit;
+	text-align: center;
+}
+
+.about i {
+	text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 1rem;
+	transition: 0.4s;
+}
+
+.about i:hover {
+	color: rgba(229, 96, 25, 1);
+	transition: 0.4s;
+}
+
+.about p {
+	padding-top: 0px;
+	font-size: 1.2rem;
+}
+
+.orange {
+	border-top: 1px solid rgba(229, 96, 25, 1);
+	width: 150px;
+	background-color: rgba(229, 96, 25, 1);
+}
+
+h2, 
+.under-heading {
+	padding-top: 2rem;
+	margin-bottom: 0rem;
+	text-align: center;
+}
+
+/*SECTION PROMOTIONS*/
+
+.products {
+	padding: 6rem 0;
+}
+
+/*.sp-container {
+	max-width: 60%;
+	max-height: 50%;
+}*/
+
+.pb-1,
+.valid {
+	padding: 0px;
+	margin: 0px;
+}
+
+.offer-title span {
+	border-bottom: 2px solid rgba(229, 96, 25, 1);	
+}
+
+.offers {
+	list-style: none;
+	padding: 20px 0px 80px;
+	padding-top: 50px;
+	position: relative;
+}
+
+.offers:before {
+	top:0;
+	bottom: 0; 
+	position: absolute;
+	content: " ";
+	width: 3px; 
+	background-color: #eeeeee;
+	left: 50%;	
+	margin-left: -1.5px;
+} /*GREY LINE IN THE MIDDLE*/ 
+
+.offers > li {
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 20px;
+	position: relative;	
+}
+
+.offers > li:before,
+.offers > li:after {
+	content: " ";
+	display: table;
+}
+
+.offers > li:after {
+	clear: both;
+}
+
+.offers > li > .offer-panel {
+	width: 50%;
+	float: left;
+	border: 1px solid #d4d4d4;
+	border-radius: 2px;
+	padding: 20px;
+	position: relative;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+.offers p {
+	font-family: "Roboto Mono"; 
+	font-weight: 700;
+}
+
+.offers > li:not(.offers-inverted) {
+	padding-right: 125px;
+}
+
+.offers > li.offers-inverted {
+	padding-left: 125px;
+}
+
+.offers > li > .offer-date {
+	font-size: 1rem; 
+	color: #fff;
+	width: 90px;
+	height: 50px;
+	line-height: 50px; 
+	text-align: center;
+	position: absolute;
+	top: 16px;
+	left: 50%;
+	margin-left: -45px;
+	background-color: rgba(229, 96, 25, .9);
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.offers > li.offers-inverted > .offer-panel {
+	float: right;
+}
+
+/*SECTION PARALLAX*/
+#section-parallax {
+	text-align: center;
+	text-shadow: 1px 1px rgba(229, 96, 25, .7); 
+	background:  url(../img/33.png) center repeat fixed;
+	padding: 150px 0;
+	background-size: cover;
+}
+
+/*SECTION BOOKSTORES*/
+
+#section-bookstores {
+	padding: 11rem 0;
+	text-align: center;
+	background:  url(../img/handmadepaper.png) center;
+}
+
+.card {	
+	margin-top: 3rem;
+	border: 1px solid rgba(168, 168, 168, 1);
+	box-shadow: 0 1px 6px rgba(168, 168, 168, .8);
+	overflow: hidden;
+}
+
+.card img {	
+	transition: 1s;
+	overflow: auto;
+	padding: 0;	
+}
+
+.card img:hover {
+	transform: scale(1.1);	
+	transition: 1s;
+}
+
+.card a {
+	color: rgba(229, 96, 25, .7);
+}
+
+.card a:hover {
+	color: rgba(229, 96, 25, 1);
+	transition: 1s;
+}
+
+.ob {
+	color: rgba(229, 96, 25, .7);
+}
+#card {
+	transition: 1s;
+}
+
+#card:hover {
+	transform: scale(0.96);
+	transition: 1s;
+}
+
+/*SECTION CONTACT*/
+
+.section-contact {
+	background-color: white;
+	padding: 10rem 0;
+}
+
+#contact .col-form-label {s
+	font-size: 15px;
+	line-height: 80%;
+	margin-top: 10px;
+	white-space: nowrap;
+}
+
+#contact .btn {
+	margin-top: 1rem;
+	font-size: 17px; 
+	margin-bottom: 1rem;
+}
+
+.form-control {
+	font-size: 18px;
+}
+
+.form-horizontal {
+	padding-top: 5rem;
+}
+textarea:focus, input:focus {
+	border-color: rgba(229, 96, 25, .7) !important;
+}
+
+/*FOOTER*/
+
+#footer {
+	color: white;
+	background-color: #222;
+	padding-bottom: 10px;
+	position: relative;
+	text-align: center;
+}
+
+.social-links {
+	list-style: none;
+	float: left;
+}
+
+
+.social-links li {
+	display: inline-block;
+	/*margin-right: 20px;*/
+	margin-top: 30px;
+	padding-right: 20px;
+	color: rgba(212, 211, 206, 1) !important;
+}
+
+.social-links li:last-child {
+	margin-right: 0;
+}
+
+.sicons {
+	position:relative;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+	text-decoration: none;
+	color: rgba(212, 211, 206, 1);
+	font-size: 130%;
+}
+
+
+.fa-angle-double-up {
+	margin-left: 15rem;
+	margin-top: 30px;
+	font-size: 3rem;
+	color:  rgba(212, 211, 206, 1);
+}
+
+.fa-angle-double-up:hover {
+	color: rgba(229, 96, 25, 0.8);
+	transition: 0.3s;
+}
+
+.copy {
+	float: left;
+	color: rgba(212, 211, 206, 1);
+	margin-top: 45px;
+}
+
+.fa:hover {
+	transform: scale(1.5);
+	transition: .5s; 
+}
+
+.fa-facebook-square:hover{
+	color: #3b5998;
+}
+
+.fa-twitter-square:hover {
+	color: #00aced;
+}
+
+
+.fa-google-plus-square:hover {
+	color: #dd4b39;
+}
+
+.fa-instagram:hover {
+	color: #517fa4;
+}
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-google-plus-square,
+.fa-instagram {
+	transition: .5s;
+}
+
+/*  ANIMATIONS */
+
+/* features*/
+.js-wp-1 {
+	opacity: 0;
+}
+
+.js-wp-1.animated {
+	opacity: 1;
+}
+
+
+.js-wp-2 {
+	opacity: 0;
+}
+
+.js-wp-2.animated {
+	opacity: 1;
+	animation-delay: .5s;
+}
+
+
+.js-wp-3 {
+	opacity: 0;
+}
+
+.js-wp-3.animated {
+	opacity: 1;
+}
+
+.js-wp-4 {
+	opacity: 0;
+}
+
+.js-wp-4.animated {
+	opacity: 1;
+	animation-delay: 1s;
+}
+
+/* offers */
+
+.js-od-1 {
+	opacity: 0;
+}
+
+.js-od-1.animated {
+	opacity: 1;
+}
+
+.js-op-1 {
+	opacity: 0;
+}
+
+.js-op-1.animated {
+	opacity: 1; 
+	animation-delay: .2s;
+}
+
+.js-od-2 {
+	opacity: 0;
+}
+
+.js-od-2.animated {
+	opacity: 1;
+}
+
+.js-op-2 {
+	opacity: 0;
+}
+
+.js-op-2.animated {
+	opacity: 1;
+	animation-delay: .4s;
+}
+
+.js-od-3 {
+	opacity: 0;
+}
+
+.js-od-3.animated {
+	opacity: 1;
+}
+
+.js-op-3 {
+	opacity: 0;
+}
+
+.js-op-3.animated {
+	opacity: 1;
+	animation-delay: .2s;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media only screen and (max-width: 1200px) {
+	.fa-angle-double-down {
+		position: absolute;
+		right: 124px;
+
+	}
+	.fa-facebook-square,
+	.fa-twitter-square,
+	.fa-google-plus-square,
+	.fa-instagram {
+		font-size: 1.5rem;
+		float: center;
+	}
+
+	.fa-angle-double-up {
+		position: absolute;
+		right: 124px;
+	}
+}
+
+@media only screen and (max-width: 993px) {
+	.fa-facebook-square,
+	.fa-twitter-square,
+	.fa-google-plus-square,
+	.fa-instagram {
+		font-size: 1.1rem;
+		float: center;
+}
+
+	.fa-angle-double-up {
+		position: relative;
+		right: 84px;
+	}
+}
+
+
+@media only screen and (max-width: 774px) {
+	.about p {
+	font-size: 0.8rem;
+}
+
+nav ul{
+	margin: auto;
+}
+.fa-angle-double-down {
+		margin-bottom: 145px;
+
+}
